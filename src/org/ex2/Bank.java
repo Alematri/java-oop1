@@ -32,7 +32,8 @@ public class Bank {
                 case 2:
                     System.out.print("Inserisci la somma da prelevare: ");
                     double withdrawnAmount = scanner.nextDouble();
-                    account.withdraw(withdrawnAmount);
+                    boolean withdrawalResult = account.withdraw(withdrawnAmount);
+                    account.printWithdrawMessage(withdrawalResult, withdrawnAmount);
                     break;
                 case 3:
                     account.info();

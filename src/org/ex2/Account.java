@@ -27,14 +27,25 @@ class Account {
     }
 
     // Metodo 3 Prelievo
-    public void withdraw(double amount) {
+    public boolean withdraw(double amount) {
         if (balance >= amount && amount > 0) { // Controllo che ci siano fondi sufficienti
             balance -= amount;
-            System.out.println("Prelievo effettuato. Il saldo attuale è: " + balance);
-        } else if (amount <= 0) {
-            System.out.println("Inserire un importo valido."); // Controllo che l'importo selezionato sia positivospi
+            return true; // Prelievo riuscito
         } else {
-            System.out.println("Saldo insufficiente.");
+            return false; // Prelievo non riuscito
+        }
+    }
+
+    // Metodo 3.1 Stampare il risultato del prelievo
+    public void printWithdrawMessage(boolean withdrawalResult, double amount) {
+        if (withdrawalResult) {
+            System.out.println("Prelievo di " + amount + " effettuato. Il saldo attuale è: " + balance);
+        } else {
+            if (balance < amount) {
+                System.out.println("Saldo insufficiente.");
+            } else {
+                System.out.println("Inserire un importo valido.");
+            }
         }
     }
 
