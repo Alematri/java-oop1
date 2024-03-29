@@ -1,4 +1,4 @@
-package org.javabank;
+package org.ex1;
 
 import java.util.Random;
 public class Product {

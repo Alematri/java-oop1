@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80cb3d41-466a-4e95-800d-ae6060845e42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/javabank/Product.java" afterDir="false" />
+    <list default="true" id="80cb3d41-466a-4e95-800d-ae6060845e42" name="Changes" comment="Ex 1">
+      <change afterPath="$PROJECT_DIR$/src/org/ex2/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javabank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javabank/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javashop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javashop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javabank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ex1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javabank/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ex1/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javashop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ex2/Bank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Bank.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -58,13 +59,26 @@
       <recent name="org.javashop" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.javabank.Main" />
+  <component name="RunManager" selected="Application.Bank">
+    <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ex2.Bank" />
       <module name="java-oop1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.javabank.*" />
+          <option name="PATTERN" value="org.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ex1.Main" />
+      <module name="java-oop1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bank" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -94,6 +109,19 @@
       <option name="presentableId" value="Default" />
       <updated>1711719027846</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ex 1">
+      <option name="closed" value="true" />
+      <created>1711725211276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711725211276</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ex 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex 1" />
   </component>
 </project>
